@@ -3,7 +3,6 @@ import UserModel from "@/model/User.model";
 import bcrypt from "bcryptjs";
 
 import { sendVerificationEmail } from "@/helpers/sendVerificationEmail";
-import { send } from "process";
 
 export async function POST(request: Request) {
   // har api me db connect
